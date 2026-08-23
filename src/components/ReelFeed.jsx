@@ -2,9 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Reel from "./Reel";
 import MoodSelector from "./MoodSelector";
 
-const API_URL =
-  import.meta.env.VITE_API_URL ||
-  "http://localhost:8087";
+const API_URL = "https://cmo-server-test.onrender.com";
 
 const DEFAULT_MOOD = "chill";
 
